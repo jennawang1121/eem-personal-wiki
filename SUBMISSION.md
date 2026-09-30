@@ -1,6 +1,6 @@
 # Submission handoff
 
-The local project, required demonstrations, and Obsidian walkthrough are complete. Publication and portal submission are the remaining steps. It is **not yet a completed course submission**. Start with the [README](README.md) and [saved evidence](evidence/INDEX.md).
+The local project, required demonstrations, and Obsidian walkthrough are complete. The public repository is published and anonymously verified. Only course portal submission remains. It is **not yet a completed course submission**. Start with the [README](README.md) and [saved evidence](evidence/INDEX.md).
 
 ## Actions that need the owner
 
@@ -12,7 +12,8 @@ The local project, required demonstrations, and Obsidian walkthrough are complet
 
 - Obsidian walkthrough and all three required screenshot types are complete. See [verified navigation and screenshots](evidence/obsidian/README.md).
 - Offline recording and logs are inspected and linked. The regenerated wiki summaries have been reviewed.
-- Prepare a separate repository containing only `personal-wiki/`; exclude local model weights, environments, caches, credentials, state and unrelated assignments.
-- Verify the public README, source paths, code and evidence links while signed out, then submit the repository URL through the specified course portal.
+- Completed: published only this project at [jennawang1121/eem-personal-wiki](https://github.com/jennawang1121/eem-personal-wiki), excluding weights, environments, caches, credentials, state and unrelated assignments.
+- Completed: [anonymous public access verification](evidence/public-access-verification.json) matched all 265 initially published files byte-for-byte, including code, sources, screenshots and the accepted movie.
+- Pending: submit **https://github.com/jennawang1121/eem-personal-wiki** through the course portal once its URL is provided. No portal submission or receipt is claimed.
 
 All authored documentation is English. Original bilingual passages, diagrams and historical outputs remain unmodified evidence. Future offline demonstration prompts are English.

@@ -4,7 +4,7 @@ A personal study wiki built from my four EEM cheat sheets, with a CLI and harnes
 
 **Current result:** four unchanged Word sources, twelve reviewed topic pages, 28 original-text passages, and 22 preserved images. Three answerable questions return grounded answers; an unsupported exam-schedule question returns insufficient evidence. Eleven code tests pass. These are real local model results.
 
-**Submission preparation:** the [offline recording and review](evidence/offline/20260930T042106Z/REVIEW.md), [required Obsidian screenshots and navigation checks](evidence/obsidian/README.md), and [resumed verification](evidence/resume-verification.json) are complete. Public repository publication is the next step; course portal submission is still pending.
+**Submission preparation:** the [offline recording and review](evidence/offline/20260930T042106Z/REVIEW.md), [required Obsidian screenshots and navigation checks](evidence/obsidian/README.md), and [resumed verification](evidence/resume-verification.json) are complete. The [public repository](https://github.com/jennawang1121/eem-personal-wiki) is published and [anonymous access verified](evidence/public-access-verification.json). **Only course portal submission remains pending.**
 
 ## Quick start
 
@@ -172,8 +172,9 @@ The [walkthrough record](evidence/obsidian/README.md) documents what was observe
 - [x] Physical offline recording and review of its actual outputs.
 - [x] Review the wiki drafts regenerated during the offline run.
 - [x] Owner confirmed public sharing of all four EEM documents and embedded figures.
-- [ ] Create a separate public repository for this project only, verify signed-out access, and submit its URL through the course portal.
+- [x] Dedicated public repository published; anonymous access and all 265 initially published files verified.
+- [ ] Submit the public repository URL through the course portal (portal URL still needed).
 
 All authored project documentation is in English. Original bilingual source excerpts and exact model outputs are preserved as evidence, not translated replacements.
 
-No EEM material has been uploaded or published. The earlier AI-learning corpus is backed up outside this project under `../archive/personal-wiki-ai-learning-20260929/` and is not part of the EEM submission.
+The owner-approved EEM submission is published at [jennawang1121/eem-personal-wiki](https://github.com/jennawang1121/eem-personal-wiki). See the [recovery audit](evidence/RESUME-AUDIT.md) for the completed requirement map. The earlier AI-learning corpus is backed up outside this project under `../archive/personal-wiki-ai-learning-20260929/` and is not part of the EEM submission.
