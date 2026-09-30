@@ -1,0 +1,14 @@
+{
+  "recorded_at": "2026-09-30T03:50:53.101578+00:00",
+  "offline_proof": "This command does not verify physical internet disconnection.",
+  "interaction_mode": "doctor",
+  "execution": "local",
+  "python": "3.12.14",
+  "os": "macOS-27.0-arm64-arm-64bit",
+  "model": "mlx-community/gemma-4-e2b-it-4bit",
+  "snapshot_revision": "238767527555cb75a05732a84dff5d6ba0dd6809",
+  "model_present": true,
+  "vm_stat": "Mach Virtual Memory Statistics: (page size of 16384 bytes)\nPages free:                                     5308.\nPages active:                                 197172.\nPages inactive:                               195951.\nPages speculative:                               950.\nPages throttled:                                   0.\nPages wired down:                             185638.\nPages purgeable:                                8028.\n\"Translation faults\":                     1074398749.\nPages copy-on-write:                        15485349.\nPages zero filled:                         949790005.\nPages reactivated:                         189332164.\nPages purged:                               55386197.\nFile-backed pages:                            133535.\nAnonymous pages:                              260538.\nPages stored in compressor:                   839499.\nPages occupied by compressor:                 424852.\nDecompressions:                            176024918.\nCompressions:                              202943672.\nPageins:                                    37417896.\nPageouts:                                     238199.\nSwapins:                                     2217649.\nSwapouts:                                    3173749.",
+  "disk": "Filesystem      Size    Used   Avail Capacity iused ifree %iused  Mounted on\n/dev/disk3s5   460Gi   263Gi   168Gi    61%    1.4M  1.8G    0%   /System/Volumes/Data",
+  "hardware": "Hardware:\n\n    Hardware Overview:\n\n      Model Name: MacBook Air\n      Model Identifier: Mac16,12\n      Model Number: MC6U4TA/A\n      Chip: Apple M4\n      Total Number of Cores: 10 (4 Performance and 6 Efficiency)\n      Memory: 16 GB\n      System Firmware Version: 20457.1.29\n      OS Loader Version: 20457.1.29\n      Activation Lock Status: Enabled\n\nGraphics/Displays:\n\n    Apple M4:\n\n      Chipset Model: Apple M4\n      Type: GPU\n      Bus: Built-In\n      Total Number of Cores: 10\n      Vendor: Apple (0x106b)\n      Metal Support: Metal 4\n      Displays:\n        Color LCD:\n          Display Type: Built-in Liquid Retina Display\n          Resolution: 2560 x 1664 Retina\n          Main Display: Yes\n          Mirror: Off\n          Online: Yes\n          Automatically Adjust Brightness: Yes\n          Connection Type: Internal"
+}

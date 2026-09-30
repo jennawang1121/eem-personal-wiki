@@ -1,0 +1,31 @@
+{
+  "run_id": "20260930T042106Z",
+  "original_filename": "EEM-offline-demo-take2.mov",
+  "original_sha256": "74a307c35bdb0aaa6c8d2efcac304211c9906355be4e0eb3c37d0b9b3c85ec8d",
+  "original_bytes": 9775065,
+  "original_duration_seconds": 141.36833333333334,
+  "submission_movie": "offline-demo.mov",
+  "submission_sha256": "2299280f6c3160c3af4877c1953475b8b80220d012a71981693a3a4b5dfec8e3",
+  "submission_bytes": 4969582,
+  "submission_duration_seconds": 125.0,
+  "edit": "Only the ending after 125 seconds was removed. Continuous original sequence from 0 through 125 seconds; passthrough export without re-encoding.",
+  "review_method": "30 overview frames at five-second intervals plus selected frames at full resolution; cross-checked exact run records, source support, and network snapshot. Export frames at 20 and 100 seconds are pixel-identical to the original; ending at 124 seconds visually verified.",
+  "verdict": "Offline demonstration requirements supported by recording and saved logs; not a claim that the whole assignment is complete.",
+  "records": [
+    "evidence/runs/20260930T042107-706210.json",
+    "evidence/runs/20260930T042146-86891c.json",
+    "evidence/runs/20260930T042147-afc108.json",
+    "evidence/runs/20260930T042151-82f50e.json",
+    "evidence/runs/20260930T042154-6ee8b7.json",
+    "evidence/runs/20260930T042158-5f3866.json",
+    "evidence/runs/20260930T042201-7496a3.json",
+    "evidence/runs/20260930T042206-f5788e.json",
+    "evidence/runs/20260930T042209-8ccb5b.json",
+    "evidence/runs/20260930T042212-de2399.json",
+    "evidence/runs/20260930T042214-d84bb2.json",
+    "evidence/runs/20260930T042215-e7c9fb.json",
+    "evidence/runs/20260930T042218-6259c6.json",
+    "evidence/runs/20260930T042218-e78d6c.json"
+  ],
+  "wiki_review_after_regeneration": "complete; see evidence/post-offline-review.json"
+}

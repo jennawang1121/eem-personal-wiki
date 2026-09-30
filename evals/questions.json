@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ask-1",
+    "question": "According to the notes, should someone buying a commodity in the future hedge with long or short futures?",
+    "expected_source": "vault/raw/EEM Quiz 1 Cheat Sheet.docx",
+    "expected_excerpt": "If future exposure = buying a commodity: Hedge with long futures.",
+    "expected_terms": [
+      "long"
+    ],
+    "expected_ranges": [
+      [
+        28,
+        29
+      ]
+    ]
+  },
+  {
+    "id": "ask-2",
+    "question": "According to the notes, why can a natural monopoly lose money when the regulated price equals marginal cost?",
+    "expected_source": "vault/raw/EEM Quiz 2 Cheat Sheet.docx",
+    "expected_excerpt": "P=MC, efficient cost-> but firm cannot pay fix costs, profit <0, profit= - fixed cost",
+    "expected_terms": [
+      "fixed"
+    ],
+    "expected_ranges": [
+      [
+        38,
+        43
+      ]
+    ]
+  },
+  {
+    "id": "ask-3",
+    "question": "According to the notes, which three aspects of electricity value are ignored by LCOE?",
+    "expected_source": "vault/raw/EEM Quiz 3 Cheat Sheet.docx",
+    "expected_excerpt": "LCOE ignores time, location, and dispatchability, treating all electricity as equally valuable.",
+    "expected_terms": [
+      "time",
+      "location",
+      "dispatchability"
+    ],
+    "expected_ranges": [
+      [
+        67,
+        69
+      ]
+    ]
+  },
+  {
+    "id": "ask-4",
+    "question": "What is the exact date and classroom for the EEM final exam?",
+    "expected_source": null,
+    "expected_excerpt": "No source provides the final exam date or classroom.",
+    "expected_terms": [
+      "insufficient evidence"
+    ]
+  }
+]

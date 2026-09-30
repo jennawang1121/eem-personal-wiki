@@ -1,0 +1,92 @@
+{
+  "recorded_at": "2026-09-29T23:41:39.490779+00:00",
+  "offline_proof": "Local-only inference; physical internet disconnection not verified.",
+  "interaction_mode": "ask",
+  "execution": "local",
+  "question": "According to the notes, should someone buying a commodity in the future hedge with long or short futures?",
+  "retrieved": [
+    {
+      "path": "vault/raw/EEM Quiz 1 Cheat Sheet.docx",
+      "start": 23,
+      "end": 29,
+      "text": "6️⃣ Futures Markets\nFutures: Exchange traded/Standardized/Mark-to-market/Clearinghouse reduces counterparty risk/high liquidity/ low transaction costs\nForwards: OTC(over the counter private contract)/Customized/Higher counterparty risk/Lower basic risk/low liquidity\nBasic \n7️⃣ Hedging\nIf future exposure = buying a commodity: Hedge with long futures.  If future exposure = selling a commodity: Hedge with short futures\nCross hedge principle: 𝐻𝑒𝑑𝑔𝑒 𝑆𝑖𝑧𝑒=𝐸𝑥𝑝𝑜𝑠𝑢𝑟𝑒×𝑃𝑟𝑖𝑐𝑒 𝑆𝑒𝑛𝑠𝑖𝑡𝑖𝑣𝑖𝑡𝑦 風險係數 × 用量 = 需要的期貨數量；怕漲價 → buy, 怕跌價 → sell ",
+      "sha256": "764c69cba4a277432164cd61216a7bdbd11178231d1e685dfedb18e024690500",
+      "location_unit": "paragraphs",
+      "section": "Futures and Hedging",
+      "extraction": "OOXML text; table-cell paragraph order; images excluded",
+      "score": 21.10999,
+      "label": "S1"
+    },
+    {
+      "path": "vault/raw/EEM_Final_Cheat_Sheet.docx",
+      "start": 29,
+      "end": 57,
+      "text": "5. Futures vs. Forwards\nFeature\nFutures\nForwards\nTraded\nExchange\nOTC (private)\nTerms\nStandardized\nCustomized\nCounterparty risk\nLow (clearinghouse)\nHigher\nBasis risk\nHigher\nLower\nLiquidity\nHigh\nLow\n6. Basis Risk\nBasis risk: Risk that futures contract is poorly correlated with actual asset\nElectricity: MOST basis risk — cannot store; prices vary by hour/location\nCrude oil: Less basis risk — storable; prices more uniform\n7. Hedging\nSelling commodity → short futures (fear price drop)\nBuying commodity → long futures (fear price rise)\nHedge Size = Exposure × Price Sensitivity\ne.g. Solar plant selling 106,000 MWh; each $1 gas drop → $5/MWh electricity drop:\nHedge = 106,000 × 5 = 530,000 MMBTU (short)",
+      "sha256": "b5f3132c2e80236bc462bc75cd95b0525cfcc7dcaa192a4eef29ea9984f406a9",
+      "location_unit": "paragraphs",
+      "section": "Futures and Hedging",
+      "extraction": "OOXML text; table-cell paragraph order; images excluded",
+      "score": 14.58057,
+      "label": "S2"
+    },
+    {
+      "path": "vault/raw/EEM_Final_Cheat_Sheet.docx",
+      "start": 111,
+      "end": 119,
+      "text": "15. Electricity Markets & Peak Pricing\nMerit order: Renewables → Nuclear → Coal → Gas (low to high cost)\nMarket price = MC of marginal (most expensive) unit dispatched.\nFossil fuels typically set the price.\nGas Price Drop — Short Run vs. Long Run\nShort run: Capacity fixed; off-peak prices fall (MC ↓); peak prices unchanged (capacity-constrained)\nLong run: Capacity adjusts; lower build cost → more plants → peak prices fall more\nBuild Cost Rise — Long Run\nLess new capacity enters → peak prices rise more than off-peak",
+      "sha256": "b5f3132c2e80236bc462bc75cd95b0525cfcc7dcaa192a4eef29ea9984f406a9",
+      "location_unit": "paragraphs",
+      "section": "Electricity Pricing",
+      "extraction": "OOXML text; table-cell paragraph order; images excluded",
+      "score": 4.8994,
+      "label": "S3"
+    }
+  ],
+  "raw_model_answer": "If there is future exposure to buying a commodity, one should hedge with long futures [S2]. This is done to mitigate the risk of a price rise [S2].",
+  "answer": "If there is future exposure to buying a commodity, one should hedge with long futures [S2]. This is done to mitigate the risk of a price rise [S2].",
+  "citation_check": {
+    "cited": [
+      "S2"
+    ],
+    "valid_labels": true,
+    "issues": [],
+    "semantic_support": "Requires human claim-by-claim review; valid labels do not prove support."
+  },
+  "metrics": {
+    "load_seconds": 1.914763207983924,
+    "generation_seconds": 1.40243170800386,
+    "prompt_tokens": 823,
+    "max_output_tokens": 350,
+    "temperature": 0,
+    "generated_tokens": 36,
+    "peak_mlx_gb": 3.269568928,
+    "process_peak_rss_gb": 2.311077888,
+    "model": "mlx-community/gemma-4-e2b-it-4bit",
+    "snapshot_revision": "238767527555cb75a05732a84dff5d6ba0dd6809",
+    "runtime": {
+      "mlx": "0.32.2",
+      "mlx-lm": "0.31.3",
+      "transformers": "5.17.0"
+    }
+  },
+  "chat_history_used": false,
+  "expectation": {
+    "id": "ask-1",
+    "question": "According to the notes, should someone buying a commodity in the future hedge with long or short futures?",
+    "expected_source": "vault/raw/EEM Quiz 1 Cheat Sheet.docx",
+    "expected_excerpt": "If future exposure = buying a commodity: Hedge with long futures.",
+    "expected_terms": [
+      "long"
+    ],
+    "expected_ranges": [
+      [
+        28,
+        29
+      ]
+    ]
+  },
+  "retrieval_expected_source_found": true,
+  "expected_excerpt_retrieved": true,
+  "expected_terms_present": true,
+  "assessment": "Automated source/term checks only; read the answer and cited original before accepting."
+}

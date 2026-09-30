@@ -1,0 +1,74 @@
+{
+  "recorded_at": "2026-09-29T23:44:59.944972+00:00",
+  "offline_proof": "Local-only inference; physical internet disconnection not verified.",
+  "interaction_mode": "ask",
+  "execution": "local",
+  "question": "根據筆記，LCOE 有哪些限制？",
+  "retrieved": [
+    {
+      "path": "vault/raw/EEM_Final_Cheat_Sheet.docx",
+      "start": 102,
+      "end": 110,
+      "text": "14. LCOE (Levelized Cost of Electricity)\nLCOE = constant real P/MWh that makes NPV = 0\nFixed MC:\nLCOE = MC + Fixed Cost / Discounted MWh\nVariable MC:\nLCOE = Σ(Costs_t / (1+r)^t) / Σ(MWh_t / (1+r)^t)\nHigher capacity factor → lower LCOE (fixed cost spread over more MWh)\nLimitation: Ignores time, location, dispatchability — treats all MWh equally\nCompare LCOE vs. wholesale price to assess viability (market prices don't enter LCOE formula).",
+      "sha256": "b5f3132c2e80236bc462bc75cd95b0525cfcc7dcaa192a4eef29ea9984f406a9",
+      "location_unit": "paragraphs",
+      "section": "Levelized Electricity Cost",
+      "extraction": "OOXML text; table-cell paragraph order; images excluded",
+      "score": 9.2616,
+      "label": "S1"
+    },
+    {
+      "path": "vault/raw/EEM Quiz 3 Cheat Sheet.docx",
+      "start": 67,
+      "end": 69,
+      "text": "LCOE=constant price per MWh that makes NPV = 0 (折線後的cost /折線後總電量) If MC fixed: 1.Discount electricity  2. Fixed cost ÷ discounted electricity 3. +MC.  If MC varies: 1.Discount costs with varied MC  + fixed cost 3. Discount electricity 4. Discounted Total cost(1)/ discounted total electricity(3) \nLimitation: LCOE ignores time, location, and dispatchability, treating all electricity as equally valuable.\nLCOE= MC+ (Fixed cost/Discounted Electricity), if capacity increases, LCOE decreases.",
+      "sha256": "18c5486868e0553ba9e34ff7b766af5b3f88563637a74206e9e93302a3b0d4ce",
+      "location_unit": "paragraphs",
+      "section": "Levelized Electricity Cost",
+      "extraction": "OOXML text; table-cell paragraph order; images excluded",
+      "score": 8.68671,
+      "label": "S2"
+    },
+    {
+      "path": "vault/raw/EEM_Final_Cheat_Sheet.docx",
+      "start": 1,
+      "end": 1,
+      "text": "EEM Final Exam Cheat Sheet   | Competitive Markets · Monopoly · Auctions · Futures · Hedging · Storage · Regulation · LCOE · Electricity · Externalities · Cap-and-Trade",
+      "sha256": "b5f3132c2e80236bc462bc75cd95b0525cfcc7dcaa192a4eef29ea9984f406a9",
+      "location_unit": "paragraphs",
+      "section": "",
+      "extraction": "OOXML text; table-cell paragraph order; images excluded",
+      "score": 3.14508,
+      "label": "S3"
+    }
+  ],
+  "raw_model_answer": "LCOE 的限制是它忽略了時間、地點和可調度性 [S1, S2]。它將所有兆瓦時視為同等價值 [S1, S2]。",
+  "answer": "LCOE 的限制是它忽略了時間、地點和可調度性 [S1, S2]。它將所有兆瓦時視為同等價值 [S1, S2]。",
+  "citation_check": {
+    "cited": [
+      "S1",
+      "S2"
+    ],
+    "valid_labels": true,
+    "issues": [],
+    "semantic_support": "Requires human claim-by-claim review; valid labels do not prove support."
+  },
+  "metrics": {
+    "load_seconds": 2.1292533749947324,
+    "generation_seconds": 1.5132508339884225,
+    "prompt_tokens": 661,
+    "max_output_tokens": 350,
+    "temperature": 0,
+    "generated_tokens": 43,
+    "peak_mlx_gb": 3.263149774,
+    "process_peak_rss_gb": 1.402044416,
+    "model": "mlx-community/gemma-4-e2b-it-4bit",
+    "snapshot_revision": "238767527555cb75a05732a84dff5d6ba0dd6809",
+    "runtime": {
+      "mlx": "0.32.2",
+      "mlx-lm": "0.31.3",
+      "transformers": "5.17.0"
+    }
+  },
+  "chat_history_used": false
+}

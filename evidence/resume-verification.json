@@ -1,0 +1,56 @@
+{
+  "scope": "Fresh temporary copy without Git, state, model or virtual environment; reused installed Python environment; no Gemma evaluation or offline demonstration repeated. Existing evidence and wiki untouched.",
+  "results": [
+    {
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "-v"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_docx_table_cells_and_original_provenance (test_wiki.DocxTests.test_docx_table_cells_and_original_provenance) ... ok\ntest_mapping_change_requires_reindex (test_wiki.DocxTests.test_mapping_change_requires_reindex) ... ok\ntest_ask_has_no_persona_or_chat_history (test_wiki.HarnessTests.test_ask_has_no_persona_or_chat_history) ... ok\ntest_casual_chat_skips_lookup_without_index (test_wiki.HarnessTests.test_casual_chat_skips_lookup_without_index) ... ok\ntest_generated_answers_never_enter_index (test_wiki.HarnessTests.test_generated_answers_never_enter_index) ... ok\ntest_hypothetical_budget_is_conversation_not_evidence (test_wiki.HarnessTests.test_hypothetical_budget_is_conversation_not_evidence) ... ok\ntest_reingestion_preserves_reviewed_page_and_original (test_wiki.HarnessTests.test_reingestion_preserves_reviewed_page_and_original) ... ok\ntest_search_exact_original_and_location (test_wiki.HarnessTests.test_search_exact_original_and_location) ... ok\ntest_sources_changed_refuses_stale_index (test_wiki.HarnessTests.test_sources_changed_refuses_stale_index) ... ok\ntest_unknown_citations_and_uncited_claims_fail_closed (test_wiki.HarnessTests.test_unknown_citations_and_uncited_claims_fail_closed) ... ok\ntest_unsupported_question_still_calls_local_model (test_wiki.HarnessTests.test_unsupported_question_still_calls_local_model) ... ok\n\n----------------------------------------------------------------------\nRan 11 tests in 0.031s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python",
+        "wiki.py",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stdout": "usage: wiki.py [-h] {ingest,index,ask,search,chat,review,doctor,help} ...\n\nFern personal wiki: local Gemma + original-source retrieval. No cloud\nfallback.\n\npositional arguments:\n  {ingest,index,ask,search,chat,review,doctor,help}\n    ingest              Summarize mapped raw sources with Gemma; rebuild\n                        retrieval and navigation.\n    index               Rebuild original-source retrieval only; no model\n                        required.\n    ask                 Standalone cited factual answer.\n    search              Original matching passages; no model call.\n    chat                Conversational assistant. /notes QUERY forces\n                        retrieval; /reset clears history; /exit quits.\n    review              Mark a wiki page reviewed after comparing it with its\n                        original.\n    doctor              Record local device/model availability.\n    help                Show command help.\n\noptions:\n  -h, --help            show this help message and exit\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "wiki.py",
+        "index"
+      ],
+      "exit_code": 0,
+      "stdout": "index | local | no model call\n{\n  \"interaction_mode\": \"index\",\n  \"execution\": \"local\",\n  \"passages\": 28\n}\nSaved: evidence/runs/20260930T052049-2eacb6.md\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "wiki.py",
+        "search",
+        "natural monopoly fixed cost"
+      ],
+      "exit_code": 0,
+      "stdout": "search | local | no model call\n[S1] vault/raw/EEM Quiz 2 Cheat Sheet.docx paragraphs 38-43\nNatural Monopoly Regulation (efficient P = MC, nut Natural monopoly \u2192 MC pricing \u4e0d\u53ef\u884c\uff08\u6703\u8667\uff09\nC = F + cQ, Demand given, MC=c\nP=MC, efficient cost-> but firm cannot pay fix costs, profit <0, profit= - fixed cost\nP=AC, profit=0, \nTwo-part tariff, P=MC + Fixed fee, per-unit price = MC, fixed fee = consumer surplus 1.\u7528 demand \u627e Q 2. \u756b triangle\u7b97 CS \uff08D\u4e0b, P=mc \u4ee5\u4e0a)\nP>MC, create DWL(\u5148\u627e \u984c\u76eeregulated Qty, \u518d\u627e efficient Qty\uff08\u8a2d P=MC\uff09\u518d\u7528\u4e09\u89d2\u5f62\u9762\u7a4d\u7b97 DWL\n\n[S2] vault/raw/EEM Quiz 2 Cheat Sheet.docx paragraphs 1-4\nNatural Monopoly\nAC declining at market demand\u2192 Natural monopoly Natural monopoly occurs when economies of scale are large enough that one firm can supply the entire market at the lowest cost.\u5e02\u5834\u9700\u6c42\u843d\u5728 AC curve \u4e0b\u964d\u5340 \u6216 economies of scale over entire market = NM\nMC < AC \u2192 AC falling, MC > AC \u2192 AC rising, MC = AC \u2192 AC minimum\nAverage cost curves are decreasing whenever marginal cost is below average cost,  and increasing whenever marginal cost is above average cost. \n\n[S3] vault/raw/EEM_Final_Cheat_Sheet.docx paragraphs 69-92\n10. Natural Monopoly\nAC declining over entire market demand range = Natural Monopoly\nMC < AC \u2192 AC falling | MC > AC \u2192 AC rising | MC = AC \u2192 AC minimum\nRegulatory Options\nP = MC: Efficient but firm loses fixed cost (profit = \u2212F)\nP = AC: Profit = 0; DWL vs. efficient quantity\nTwo-part tariff: P = MC + fixed fee \u2264 CS per consumer\nTwo-part tariff: Find CS at P=MC; that's max fixed fee.\nDWL = 0.5 \u00d7 (P_reg \u2212 MC) \u00d7 (Q_eff \u2212 Q_reg)\n11. Averch-Johnson Effect\nRate-of-return regulation \u2192 overinvestment in capital.\nAllowed return > cost of capital \u2192 maximize rate base \u2192 build more infrastructure.\nTerm\nMeaning\nRate Base\nTotal value of regulated capital investments\nRate of Return\nAllowed profit on capital\nCost of Capital\nMin. required return on investment\nUsed & Useful\nAssets must be operating to enter rate base\nDepreciation\nLargest expense for regulated utilities\nSaved: evidence/runs/20260930T052050-d2a863.md\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "verify_project.py"
+      ],
+      "exit_code": 0,
+      "stdout": "PASS: 4 unchanged originals, 12 reviewed topic pages, 95 resolved wiki links, all original text covered, 22 images preserved, re-ingestion unchanged.\n",
+      "stderr": ""
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "candidate_files": 264,
+  "forbidden_files": [],
+  "credential_pattern_matches": [],
+  "entrypoint_links_checked": 93,
+  "missing_links": [],
+  "originals": [
+    {
+      "file": "EEM Quiz 1 Cheat Sheet.docx",
+      "unchanged": true
+    },
+    {
+      "file": "EEM Quiz 2 Cheat Sheet.docx",
+      "unchanged": true
+    },
+    {
+      "file": "EEM Quiz 3 Cheat Sheet.docx",
+      "unchanged": true
+    },
+    {
+      "file": "EEM_Final_Cheat_Sheet.docx",
+      "unchanged": true
+    }
+  ],
+  "max_file_bytes": 4969582,
+  "publication_scope": "Only the personal-wiki repository; excludes models, environment, caches, private first-take movie, and unrelated coursework."
+}

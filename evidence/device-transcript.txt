@@ -1,0 +1,15 @@
+doctor | local | no model call
+{
+  "interaction_mode": "doctor",
+  "execution": "local",
+  "python": "3.12.14",
+  "os": "macOS-27.0-arm64-arm-64bit",
+  "model": "mlx-community/gemma-4-e2b-it-4bit",
+  "snapshot_revision": "238767527555cb75a05732a84dff5d6ba0dd6809",
+  "model_present": true,
+  "vm_stat": "Mach Virtual Memory Statistics: (page size of 16384 bytes)\nPages free:                                     5342.\nPages active:                                 236901.\nPages inactive:                               235079.\nPages speculative:                              1236.\nPages throttled:                                   0.\nPages wired down:                             154945.\nPages purgeable:                                9576.\n\"Translation faults\":                     1028414174.\nPages copy-on-write:                        14450360.\nPages zero filled:                         889453967.\nPages reactivated:                         173913821.\nPages purged:                               51665020.\nFile-backed pages:                            154412.\nAnonymous pages:                              318804.\nPages stored in compressor:                   775523.\nPages occupied by compressor:                 376368.\nDecompressions:                            161542552.\nCompressions:                              186269173.\nPageins:                                    35890797.\nPageouts:                                     233804.\nSwapins:                                     2143971.\nSwapouts:                                    2970685.",
+  "disk": "Filesystem      Size    Used   Avail Capacity iused ifree %iused  Mounted on\n/dev/disk3s5   460Gi   263Gi   169Gi    61%    1.4M  1.8G    0%   /System/Volumes/Data",
+  "offline_proof": "This command does not verify physical internet disconnection.",
+  "hardware": "Hardware:\n\n    Hardware Overview:\n\n      Model Name: MacBook Air\n      Model Identifier: Mac16,12\n      Model Number: MC6U4TA/A\n      Chip: Apple M4\n      Total Number of Cores: 10 (4 Performance and 6 Efficiency)\n      Memory: 16 GB\n      System Firmware Version: 20457.1.29\n      OS Loader Version: 20457.1.29\n\nGraphics/Displays:\n\n    Apple M4:\n\n      Chipset Model: Apple M4\n      Type: GPU\n      Bus: Built-In\n      Total Number of Cores: 10\n      Vendor: Apple (0x106b)\n      Metal: Supported"
+}
+Saved: evidence/runs/20260930T001622-9d1e22.md

@@ -1,0 +1,523 @@
+{
+  "originals": [
+    {
+      "file": "EEM Quiz 1 Cheat Sheet.docx",
+      "unchanged_since_import": true
+    },
+    {
+      "file": "EEM Quiz 2 Cheat Sheet.docx",
+      "unchanged_since_import": true
+    },
+    {
+      "file": "EEM Quiz 3 Cheat Sheet.docx",
+      "unchanged_since_import": true
+    },
+    {
+      "file": "EEM_Final_Cheat_Sheet.docx",
+      "unchanged_since_import": true
+    }
+  ],
+  "links": [
+    {
+      "from": "vault/Reading Guide.md",
+      "target": "index",
+      "matches": 1
+    },
+    {
+      "from": "vault/Reading Guide.md",
+      "target": "Energy Auctions",
+      "matches": 1
+    },
+    {
+      "from": "vault/Reading Guide.md",
+      "target": "Levelized Electricity Cost",
+      "matches": 1
+    },
+    {
+      "from": "vault/Reading Guide.md",
+      "target": "Energy Efficiency",
+      "matches": 1
+    },
+    {
+      "from": "vault/Reading Guide.md",
+      "target": "Electricity Pricing",
+      "matches": 1
+    },
+    {
+      "from": "vault/Reading Guide.md",
+      "target": "Natural Monopoly Regulation",
+      "matches": 1
+    },
+    {
+      "from": "vault/Reading Guide.md",
+      "target": "Tax and Price Controls",
+      "matches": 1
+    },
+    {
+      "from": "vault/Reading Guide.md",
+      "target": "sources/EEM Quiz 2 Cheat Sheet",
+      "matches": 1
+    },
+    {
+      "from": "vault/Source Catalog.md",
+      "target": "sources/EEM Quiz 1 Cheat Sheet",
+      "matches": 1
+    },
+    {
+      "from": "vault/Source Catalog.md",
+      "target": "Market Power",
+      "matches": 1
+    },
+    {
+      "from": "vault/Source Catalog.md",
+      "target": "Energy Auctions",
+      "matches": 1
+    },
+    {
+      "from": "vault/Source Catalog.md",
+      "target": "Futures and Hedging",
+      "matches": 1
+    },
+    {
+      "from": "vault/Source Catalog.md",
+      "target": "Storage and Arbitrage",
+      "matches": 1
+    },
+    {
+      "from": "vault/Source Catalog.md",
+      "target": "sources/EEM Quiz 2 Cheat Sheet",
+      "matches": 1
+    },
+    {
+      "from": "vault/Source Catalog.md",
+      "target": "Natural Monopoly Regulation",
+      "matches": 1
+    },
+    {
+      "from": "vault/Source Catalog.md",
+      "target": "Tax and Price Controls",
+      "matches": 1
+    },
+    {
+      "from": "vault/Source Catalog.md",
+      "target": "Vertical Market Power",
+      "matches": 1
+    },
+    {
+      "from": "vault/Source Catalog.md",
+      "target": "sources/EEM Quiz 3 Cheat Sheet",
+      "matches": 1
+    },
+    {
+      "from": "vault/Source Catalog.md",
+      "target": "Externalities and Policy",
+      "matches": 1
+    },
+    {
+      "from": "vault/Source Catalog.md",
+      "target": "Carbon Markets",
+      "matches": 1
+    },
+    {
+      "from": "vault/Source Catalog.md",
+      "target": "Electricity Pricing",
+      "matches": 1
+    },
+    {
+      "from": "vault/Source Catalog.md",
+      "target": "Levelized Electricity Cost",
+      "matches": 1
+    },
+    {
+      "from": "vault/Source Catalog.md",
+      "target": "Energy Efficiency",
+      "matches": 1
+    },
+    {
+      "from": "vault/Source Catalog.md",
+      "target": "sources/EEM_Final_Cheat_Sheet",
+      "matches": 1
+    },
+    {
+      "from": "vault/Source Catalog.md",
+      "target": "Market Power",
+      "matches": 1
+    },
+    {
+      "from": "vault/Source Catalog.md",
+      "target": "Energy Auctions",
+      "matches": 1
+    },
+    {
+      "from": "vault/Source Catalog.md",
+      "target": "Futures and Hedging",
+      "matches": 1
+    },
+    {
+      "from": "vault/Source Catalog.md",
+      "target": "Storage and Arbitrage",
+      "matches": 1
+    },
+    {
+      "from": "vault/Source Catalog.md",
+      "target": "Natural Monopoly Regulation",
+      "matches": 1
+    },
+    {
+      "from": "vault/Source Catalog.md",
+      "target": "Tax and Price Controls",
+      "matches": 1
+    },
+    {
+      "from": "vault/Source Catalog.md",
+      "target": "Vertical Market Power",
+      "matches": 1
+    },
+    {
+      "from": "vault/Source Catalog.md",
+      "target": "Externalities and Policy",
+      "matches": 1
+    },
+    {
+      "from": "vault/Source Catalog.md",
+      "target": "Carbon Markets",
+      "matches": 1
+    },
+    {
+      "from": "vault/Source Catalog.md",
+      "target": "Electricity Pricing",
+      "matches": 1
+    },
+    {
+      "from": "vault/Source Catalog.md",
+      "target": "Levelized Electricity Cost",
+      "matches": 1
+    },
+    {
+      "from": "vault/Source Catalog.md",
+      "target": "Energy Efficiency",
+      "matches": 1
+    },
+    {
+      "from": "vault/index.md",
+      "target": "Source Catalog",
+      "matches": 1
+    },
+    {
+      "from": "vault/index.md",
+      "target": "Reading Guide",
+      "matches": 1
+    },
+    {
+      "from": "vault/index.md",
+      "target": "Electricity Pricing",
+      "matches": 1
+    },
+    {
+      "from": "vault/index.md",
+      "target": "Levelized Electricity Cost",
+      "matches": 1
+    },
+    {
+      "from": "vault/index.md",
+      "target": "Energy Efficiency",
+      "matches": 1
+    },
+    {
+      "from": "vault/index.md",
+      "target": "Externalities and Policy",
+      "matches": 1
+    },
+    {
+      "from": "vault/index.md",
+      "target": "Carbon Markets",
+      "matches": 1
+    },
+    {
+      "from": "vault/index.md",
+      "target": "Market Power",
+      "matches": 1
+    },
+    {
+      "from": "vault/index.md",
+      "target": "Energy Auctions",
+      "matches": 1
+    },
+    {
+      "from": "vault/index.md",
+      "target": "Futures and Hedging",
+      "matches": 1
+    },
+    {
+      "from": "vault/index.md",
+      "target": "Storage and Arbitrage",
+      "matches": 1
+    },
+    {
+      "from": "vault/index.md",
+      "target": "Natural Monopoly Regulation",
+      "matches": 1
+    },
+    {
+      "from": "vault/index.md",
+      "target": "Tax and Price Controls",
+      "matches": 1
+    },
+    {
+      "from": "vault/index.md",
+      "target": "Vertical Market Power",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Energy/Electricity Pricing.md",
+      "target": "sources/EEM Quiz 3 Cheat Sheet",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Energy/Electricity Pricing.md",
+      "target": "sources/EEM_Final_Cheat_Sheet",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Energy/Electricity Pricing.md",
+      "target": "Carbon Markets",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Energy/Electricity Pricing.md",
+      "target": "Levelized Electricity Cost",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Energy/Levelized Electricity Cost.md",
+      "target": "sources/EEM Quiz 3 Cheat Sheet",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Energy/Levelized Electricity Cost.md",
+      "target": "sources/EEM_Final_Cheat_Sheet",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Energy/Levelized Electricity Cost.md",
+      "target": "Electricity Pricing",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Energy/Levelized Electricity Cost.md",
+      "target": "Energy Efficiency",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Energy/Energy Efficiency.md",
+      "target": "sources/EEM Quiz 3 Cheat Sheet",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Energy/Energy Efficiency.md",
+      "target": "sources/EEM_Final_Cheat_Sheet",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Energy/Energy Efficiency.md",
+      "target": "Externalities and Policy",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Energy/Energy Efficiency.md",
+      "target": "Levelized Electricity Cost",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Markets/Futures and Hedging.md",
+      "target": "sources/EEM Quiz 1 Cheat Sheet",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Markets/Futures and Hedging.md",
+      "target": "sources/EEM_Final_Cheat_Sheet",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Markets/Futures and Hedging.md",
+      "target": "Storage and Arbitrage",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Markets/Storage and Arbitrage.md",
+      "target": "sources/EEM Quiz 1 Cheat Sheet",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Markets/Storage and Arbitrage.md",
+      "target": "sources/EEM_Final_Cheat_Sheet",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Markets/Storage and Arbitrage.md",
+      "target": "Futures and Hedging",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Markets/Storage and Arbitrage.md",
+      "target": "Market Power",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Markets/Energy Auctions.md",
+      "target": "sources/EEM Quiz 1 Cheat Sheet",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Markets/Energy Auctions.md",
+      "target": "sources/EEM_Final_Cheat_Sheet",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Markets/Energy Auctions.md",
+      "target": "Market Power",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Markets/Market Power.md",
+      "target": "sources/EEM Quiz 1 Cheat Sheet",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Markets/Market Power.md",
+      "target": "sources/EEM_Final_Cheat_Sheet",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Markets/Market Power.md",
+      "target": "Natural Monopoly Regulation",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Markets/Market Power.md",
+      "target": "Energy Auctions",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Environment/Externalities and Policy.md",
+      "target": "sources/EEM Quiz 3 Cheat Sheet",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Environment/Externalities and Policy.md",
+      "target": "sources/EEM_Final_Cheat_Sheet",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Environment/Externalities and Policy.md",
+      "target": "Carbon Markets",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Environment/Externalities and Policy.md",
+      "target": "Energy Efficiency",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Environment/Carbon Markets.md",
+      "target": "sources/EEM Quiz 3 Cheat Sheet",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Environment/Carbon Markets.md",
+      "target": "sources/EEM_Final_Cheat_Sheet",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Environment/Carbon Markets.md",
+      "target": "Externalities and Policy",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Environment/Carbon Markets.md",
+      "target": "Electricity Pricing",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Regulation/Natural Monopoly Regulation.md",
+      "target": "sources/EEM Quiz 2 Cheat Sheet",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Regulation/Natural Monopoly Regulation.md",
+      "target": "sources/EEM_Final_Cheat_Sheet",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Regulation/Natural Monopoly Regulation.md",
+      "target": "Tax and Price Controls",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Regulation/Natural Monopoly Regulation.md",
+      "target": "Vertical Market Power",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Regulation/Tax and Price Controls.md",
+      "target": "sources/EEM Quiz 2 Cheat Sheet",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Regulation/Tax and Price Controls.md",
+      "target": "sources/EEM_Final_Cheat_Sheet",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Regulation/Tax and Price Controls.md",
+      "target": "Natural Monopoly Regulation",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Regulation/Vertical Market Power.md",
+      "target": "sources/EEM Quiz 2 Cheat Sheet",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Regulation/Vertical Market Power.md",
+      "target": "sources/EEM_Final_Cheat_Sheet",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Regulation/Vertical Market Power.md",
+      "target": "Market Power",
+      "matches": 1
+    },
+    {
+      "from": "vault/wiki/Regulation/Vertical Market Power.md",
+      "target": "Natural Monopoly Regulation",
+      "matches": 1
+    }
+  ],
+  "coverage": [
+    {
+      "file": "EEM Quiz 1 Cheat Sheet.docx",
+      "missing_text_paragraphs": [],
+      "unchanged_images": 2
+    },
+    {
+      "file": "EEM Quiz 2 Cheat Sheet.docx",
+      "missing_text_paragraphs": [],
+      "unchanged_images": 5
+    },
+    {
+      "file": "EEM Quiz 3 Cheat Sheet.docx",
+      "missing_text_paragraphs": [],
+      "unchanged_images": 4
+    },
+    {
+      "file": "EEM_Final_Cheat_Sheet.docx",
+      "missing_text_paragraphs": [],
+      "unchanged_images": 11
+    }
+  ],
+  "topic_pages": 12,
+  "reingestion_preserves_all_page_bytes": true,
+  "obsolete_ai_learning_sources_present": false,
+  "obsidian_ui_navigation": "See evidence/obsidian/README.md; these are filesystem checks, not UI verification."
+}

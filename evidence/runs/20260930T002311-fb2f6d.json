@@ -1,0 +1,102 @@
+{
+  "recorded_at": "2026-09-30T00:23:11.575015+00:00",
+  "offline_proof": "Local-only inference; physical internet disconnection not verified.",
+  "interaction_mode": "ingest",
+  "execution": "local",
+  "sources": [
+    {
+      "title": "Market Power",
+      "status": "unchanged; preserved existing page"
+    },
+    {
+      "title": "Energy Auctions",
+      "status": "unchanged; preserved existing page"
+    },
+    {
+      "title": "Futures and Hedging",
+      "status": "unchanged; preserved existing page"
+    },
+    {
+      "title": "Storage and Arbitrage",
+      "status": "unchanged; preserved existing page"
+    },
+    {
+      "title": "Natural Monopoly Regulation",
+      "status": "unchanged; preserved existing page"
+    },
+    {
+      "title": "Tax and Price Controls",
+      "status": "unchanged; preserved existing page"
+    },
+    {
+      "title": "Vertical Market Power",
+      "status": "unchanged; preserved existing page"
+    },
+    {
+      "title": "Externalities and Policy",
+      "status": "unchanged; preserved existing page"
+    },
+    {
+      "title": "Carbon Markets",
+      "status": "unchanged; preserved existing page"
+    },
+    {
+      "title": "Electricity Pricing",
+      "status": "unchanged; preserved existing page"
+    },
+    {
+      "title": "Levelized Electricity Cost",
+      "status": "unchanged; preserved existing page"
+    },
+    {
+      "title": "Energy Efficiency",
+      "status": "unchanged; preserved existing page"
+    }
+  ],
+  "source_hashes": {
+    "vault/raw/EEM Quiz 1 Cheat Sheet.docx": "764c69cba4a277432164cd61216a7bdbd11178231d1e685dfedb18e024690500",
+    "vault/raw/EEM Quiz 2 Cheat Sheet.docx": "bc066ff7fe1ac64d16cb06722c4eec9222ecba834e55aa3c6cb0ae957b640c38",
+    "vault/raw/EEM Quiz 3 Cheat Sheet.docx": "18c5486868e0553ba9e34ff7b766af5b3f88563637a74206e9e93302a3b0d4ce",
+    "vault/raw/EEM_Final_Cheat_Sheet.docx": "b5f3132c2e80236bc462bc75cd95b0525cfcc7dcaa192a4eef29ea9984f406a9"
+  },
+  "extraction_report": [
+    {
+      "path": "vault/raw/EEM Quiz 1 Cheat Sheet.docx",
+      "sha256": "764c69cba4a277432164cd61216a7bdbd11178231d1e685dfedb18e024690500",
+      "paragraphs": 43,
+      "table_paragraphs": 0,
+      "images_preserved": 2,
+      "images_indexed": 0,
+      "word_count": 348
+    },
+    {
+      "path": "vault/raw/EEM Quiz 2 Cheat Sheet.docx",
+      "sha256": "bc066ff7fe1ac64d16cb06722c4eec9222ecba834e55aa3c6cb0ae957b640c38",
+      "paragraphs": 46,
+      "table_paragraphs": 24,
+      "images_preserved": 5,
+      "images_indexed": 0,
+      "word_count": 403
+    },
+    {
+      "path": "vault/raw/EEM Quiz 3 Cheat Sheet.docx",
+      "sha256": "18c5486868e0553ba9e34ff7b766af5b3f88563637a74206e9e93302a3b0d4ce",
+      "paragraphs": 72,
+      "table_paragraphs": 30,
+      "images_preserved": 4,
+      "images_indexed": 0,
+      "word_count": 445
+    },
+    {
+      "path": "vault/raw/EEM_Final_Cheat_Sheet.docx",
+      "sha256": "b5f3132c2e80236bc462bc75cd95b0525cfcc7dcaa192a4eef29ea9984f406a9",
+      "paragraphs": 174,
+      "table_paragraphs": 172,
+      "images_preserved": 11,
+      "images_indexed": 0,
+      "word_count": 1088
+    }
+  ],
+  "passages": 28,
+  "elapsed_seconds": 0.15558004198828712
+}

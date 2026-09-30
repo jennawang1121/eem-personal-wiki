@@ -1,0 +1,35 @@
+{
+  "recorded_at": "2026-09-30T03:52:07.256146+00:00",
+  "offline_proof": "Local-only inference; physical internet disconnection not verified.",
+  "interaction_mode": "chat",
+  "execution": "local",
+  "question": "make that shorter",
+  "retrieval_used": false,
+  "retrieved": [],
+  "answer": "Okay, I can make it more concise. Here is a shorter, three-step revision plan:\n\n**Short Revision Plan:**\n\n1.  **Identify:** Break the topic into its main parts.\n2.  **Connect:** Map out how those parts relate to each other.\n3.  **Check:** Test your understanding by summarizing or quizzing yourself.\n\nHow does that look?",
+  "raw_model_answer": "Okay, I can make it more concise. Here is a shorter, three-step revision plan:\n\n**Short Revision Plan:**\n\n1.  **Identify:** Break the topic into its main parts.\n2.  **Connect:** Map out how those parts relate to each other.\n3.  **Check:** Test your understanding by summarizing or quizzing yourself.\n\nHow does that look?",
+  "citation_check": {
+    "cited": [],
+    "valid_labels": true,
+    "issues": [],
+    "semantic_support": "Requires human claim-by-claim review; valid labels do not prove support."
+  },
+  "metrics": {
+    "load_seconds": 1.570465291995788,
+    "generation_seconds": 1.9265742920106277,
+    "prompt_tokens": 930,
+    "max_output_tokens": 350,
+    "temperature": 0.3,
+    "generated_tokens": 82,
+    "peak_mlx_gb": 3.294382174,
+    "process_peak_rss_gb": 2.71745024,
+    "model": "mlx-community/gemma-4-e2b-it-4bit",
+    "snapshot_revision": "238767527555cb75a05732a84dff5d6ba0dd6809",
+    "runtime": {
+      "mlx": "0.32.2",
+      "mlx-lm": "0.31.3",
+      "transformers": "5.17.0"
+    }
+  },
+  "history_messages_used": 6
+}

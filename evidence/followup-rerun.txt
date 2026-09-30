@@ -1,0 +1,4 @@
+ask-chinese LCOE 的限制是它忽略了時間、地點和可調度性 [S1, S2]。它將所有兆瓦時視為同等價值 [S1, S2]。
+chat-notes Hey there! I can certainly look that up for you.
+
+The limitations of LCOE mentioned in your notes are that it ignores time, location, and dispatchability, treating all MWh equally [S1, S2]. Also, it doesn't factor in market prices, as wholesale prices aren't included in the LCOE formula [S1].

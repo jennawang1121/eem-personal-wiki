@@ -1,0 +1,338 @@
+[
+  {
+    "title": "Market Power",
+    "sources_compared": [
+      {
+        "raw": "EEM Quiz 1 Cheat Sheet.docx",
+        "ranges": [
+          [
+            1,
+            18
+          ]
+        ]
+      },
+      {
+        "raw": "EEM_Final_Cheat_Sheet.docx",
+        "ranges": [
+          [
+            2,
+            18
+          ]
+        ]
+      }
+    ],
+    "draft_sha256": "af43e8ade3eb10872e6dc4c10245adde4ad5a921797539292dc5c1978216313f",
+    "reviewed_sha256": "9eb6567f7e6de17402aa3b5b35e65b7d47a442b236b9af47b00a1f490851a99a",
+    "review": "Compared regenerated draft and prior reviewed version with mapped original paragraphs; restored source-faithful wording and clarified abbreviations/conditions.",
+    "draft_preserved": "evidence/post-offline-drafts/Market Power.md"
+  },
+  {
+    "title": "Energy Auctions",
+    "sources_compared": [
+      {
+        "raw": "EEM Quiz 1 Cheat Sheet.docx",
+        "ranges": [
+          [
+            19,
+            22
+          ]
+        ]
+      },
+      {
+        "raw": "EEM_Final_Cheat_Sheet.docx",
+        "ranges": [
+          [
+            19,
+            28
+          ]
+        ]
+      }
+    ],
+    "draft_sha256": "d673dec8aa62be30eab67be4b6eaf702897812be41e5a9e95506f367fda30422",
+    "reviewed_sha256": "8c157f737d0c90fc4c85eb10c0195dc5c4f0f34f6930b200260bf452264464af",
+    "review": "Compared regenerated draft and prior reviewed version with mapped original paragraphs; restored source-faithful wording and clarified abbreviations/conditions.",
+    "draft_preserved": "evidence/post-offline-drafts/Energy Auctions.md"
+  },
+  {
+    "title": "Futures and Hedging",
+    "sources_compared": [
+      {
+        "raw": "EEM Quiz 1 Cheat Sheet.docx",
+        "ranges": [
+          [
+            23,
+            29
+          ]
+        ]
+      },
+      {
+        "raw": "EEM_Final_Cheat_Sheet.docx",
+        "ranges": [
+          [
+            29,
+            57
+          ]
+        ]
+      }
+    ],
+    "draft_sha256": "a7781bcd2b8a23b085ec02b197beb08ca1c513cdf9171c48930254909136a52f",
+    "reviewed_sha256": "8c43d304d6b793616ebf4dd0706d6226fb253b20146e303fd4bada4c15980141",
+    "review": "Compared regenerated draft and prior reviewed version with mapped original paragraphs; restored source-faithful wording and clarified abbreviations/conditions.",
+    "draft_preserved": "evidence/post-offline-drafts/Futures and Hedging.md"
+  },
+  {
+    "title": "Storage and Arbitrage",
+    "sources_compared": [
+      {
+        "raw": "EEM Quiz 1 Cheat Sheet.docx",
+        "ranges": [
+          [
+            30,
+            39
+          ]
+        ]
+      },
+      {
+        "raw": "EEM_Final_Cheat_Sheet.docx",
+        "ranges": [
+          [
+            58,
+            68
+          ]
+        ]
+      }
+    ],
+    "draft_sha256": "4158c5becec4c4923c045c3561dc39688c00752316e466954b94e2a4971a9d23",
+    "reviewed_sha256": "d7042881d7143156c2193a1741bd5976ca3b199f2adeadb16bc293f0d9aacaf7",
+    "review": "Compared regenerated draft and prior reviewed version with mapped original paragraphs; restored source-faithful wording and clarified abbreviations/conditions.",
+    "draft_preserved": "evidence/post-offline-drafts/Storage and Arbitrage.md"
+  },
+  {
+    "title": "Natural Monopoly Regulation",
+    "sources_compared": [
+      {
+        "raw": "EEM Quiz 2 Cheat Sheet.docx",
+        "ranges": [
+          [
+            1,
+            4
+          ],
+          [
+            10,
+            35
+          ],
+          [
+            38,
+            43
+          ]
+        ]
+      },
+      {
+        "raw": "EEM_Final_Cheat_Sheet.docx",
+        "ranges": [
+          [
+            69,
+            92
+          ]
+        ]
+      }
+    ],
+    "draft_sha256": "8d54b2e49375e60d668add723e96645da49fcdc889bcec7d34e8582fc8b85c3f",
+    "reviewed_sha256": "e6f05ac2ac9beceb7f3cd2a9d5f8449411fc4882e5273ff454ec2f0fd5c8f921",
+    "review": "Compared regenerated draft and prior reviewed version with mapped original paragraphs; restored source-faithful wording and clarified abbreviations/conditions.",
+    "draft_preserved": "evidence/post-offline-drafts/Natural Monopoly Regulation.md"
+  },
+  {
+    "title": "Tax and Price Controls",
+    "sources_compared": [
+      {
+        "raw": "EEM Quiz 2 Cheat Sheet.docx",
+        "ranges": [
+          [
+            5,
+            9
+          ]
+        ]
+      },
+      {
+        "raw": "EEM_Final_Cheat_Sheet.docx",
+        "ranges": [
+          [
+            93,
+            98
+          ]
+        ]
+      }
+    ],
+    "draft_sha256": "ddc92feeba5e15695a1d7a50e84fd2959f05e6d3a2a4a12373735ae36e1f05f0",
+    "reviewed_sha256": "298c9afa546fac7413f7845273e7bed9b90db8f9a9e94e711294b525a9e8b202",
+    "review": "Compared regenerated draft and prior reviewed version with mapped original paragraphs; restored source-faithful wording and clarified abbreviations/conditions.",
+    "draft_preserved": "evidence/post-offline-drafts/Tax and Price Controls.md"
+  },
+  {
+    "title": "Vertical Market Power",
+    "sources_compared": [
+      {
+        "raw": "EEM Quiz 2 Cheat Sheet.docx",
+        "ranges": [
+          [
+            37,
+            37
+          ]
+        ]
+      },
+      {
+        "raw": "EEM_Final_Cheat_Sheet.docx",
+        "ranges": [
+          [
+            99,
+            101
+          ]
+        ]
+      }
+    ],
+    "draft_sha256": "d7c7857a6d98d42f597bfe070410838099623148908cf69d69fa077ab5cec39d",
+    "reviewed_sha256": "1f185a7ec3f861b2568d97e7b5f5c3635f0aa1cead2c56028cc97c3f84c27157",
+    "review": "Compared regenerated draft and prior reviewed version with mapped original paragraphs; restored source-faithful wording and clarified abbreviations/conditions.",
+    "draft_preserved": "evidence/post-offline-drafts/Vertical Market Power.md"
+  },
+  {
+    "title": "Externalities and Policy",
+    "sources_compared": [
+      {
+        "raw": "EEM Quiz 3 Cheat Sheet.docx",
+        "ranges": [
+          [
+            1,
+            12
+          ],
+          [
+            37,
+            66
+          ]
+        ]
+      },
+      {
+        "raw": "EEM_Final_Cheat_Sheet.docx",
+        "ranges": [
+          [
+            120,
+            159
+          ]
+        ]
+      }
+    ],
+    "draft_sha256": "426c246b8785942b81f4f1ee3066ffbe0e1de8046d822f4bbcd265936bf06662",
+    "reviewed_sha256": "05293119764e711000a989d28d2b56bd05ccf82f27e2c6c12fbd3a12cb9961b7",
+    "review": "Compared regenerated draft and prior reviewed version with mapped original paragraphs; restored source-faithful wording and clarified abbreviations/conditions.",
+    "draft_preserved": "evidence/post-offline-drafts/Externalities and Policy.md"
+  },
+  {
+    "title": "Carbon Markets",
+    "sources_compared": [
+      {
+        "raw": "EEM Quiz 3 Cheat Sheet.docx",
+        "ranges": [
+          [
+            17,
+            26
+          ]
+        ]
+      },
+      {
+        "raw": "EEM_Final_Cheat_Sheet.docx",
+        "ranges": [
+          [
+            160,
+            170
+          ]
+        ]
+      }
+    ],
+    "draft_sha256": "f0b6a0da5567b551a1e167145d2c18d52510940657207104a37fcdb451cb7d3b",
+    "reviewed_sha256": "b2c6b1b1bcdf171e4572f796cd8f861408fd76c865a65e8a9f6be2e161fb675d",
+    "review": "Compared regenerated draft and prior reviewed version with mapped original paragraphs; restored source-faithful wording and clarified abbreviations/conditions.",
+    "draft_preserved": "evidence/post-offline-drafts/Carbon Markets.md"
+  },
+  {
+    "title": "Electricity Pricing",
+    "sources_compared": [
+      {
+        "raw": "EEM Quiz 3 Cheat Sheet.docx",
+        "ranges": [
+          [
+            13,
+            16
+          ]
+        ]
+      },
+      {
+        "raw": "EEM_Final_Cheat_Sheet.docx",
+        "ranges": [
+          [
+            111,
+            119
+          ]
+        ]
+      }
+    ],
+    "draft_sha256": "c4a1150ddcfe67e0a32d142a6272c06bebed1da8244a33eb609cfa5d10baa4e2",
+    "reviewed_sha256": "22fa75729379b8dbd057ac6fe4c458cbecab18cfa8d0a9c424462a4972f35112",
+    "review": "Compared regenerated draft and prior reviewed version with mapped original paragraphs; restored source-faithful wording and clarified abbreviations/conditions.",
+    "draft_preserved": "evidence/post-offline-drafts/Electricity Pricing.md"
+  },
+  {
+    "title": "Levelized Electricity Cost",
+    "sources_compared": [
+      {
+        "raw": "EEM Quiz 3 Cheat Sheet.docx",
+        "ranges": [
+          [
+            67,
+            69
+          ]
+        ]
+      },
+      {
+        "raw": "EEM_Final_Cheat_Sheet.docx",
+        "ranges": [
+          [
+            102,
+            110
+          ]
+        ]
+      }
+    ],
+    "draft_sha256": "7e03f4e3de798a29bdbbe5ae359f6462958d11244f43f208d76a47fb7785fa7b",
+    "reviewed_sha256": "ba4e4fd422bc69f0b3046aeb56c58afba06a57574c6880e240730941e0d39f4e",
+    "review": "Compared regenerated draft and prior reviewed version with mapped original paragraphs; restored source-faithful wording and clarified abbreviations/conditions.",
+    "draft_preserved": "evidence/post-offline-drafts/Levelized Electricity Cost.md"
+  },
+  {
+    "title": "Energy Efficiency",
+    "sources_compared": [
+      {
+        "raw": "EEM Quiz 3 Cheat Sheet.docx",
+        "ranges": [
+          [
+            27,
+            29
+          ]
+        ]
+      },
+      {
+        "raw": "EEM_Final_Cheat_Sheet.docx",
+        "ranges": [
+          [
+            171,
+            173
+          ]
+        ]
+      }
+    ],
+    "draft_sha256": "36669b82f3c6daa2b0881a3dcda2da6e50acd9efd615d6a74a371b44034bd137",
+    "reviewed_sha256": "f3f3b41b1a9ce9e0d5ed30b3a474a516d92c07297c8b226779815082432b6e37",
+    "review": "Compared regenerated draft and prior reviewed version with mapped original paragraphs; restored source-faithful wording and clarified abbreviations/conditions.",
+    "draft_preserved": "evidence/post-offline-drafts/Energy Efficiency.md"
+  }
+]

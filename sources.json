@@ -1,0 +1,359 @@
+[
+  {
+    "title": "Market Power",
+    "topic": "Markets",
+    "description": "Competition, monopoly and the dominant firm.",
+    "inputs": [
+      {
+        "raw": "EEM Quiz 1 Cheat Sheet.docx",
+        "ranges": [
+          [
+            1,
+            18
+          ]
+        ]
+      },
+      {
+        "raw": "EEM_Final_Cheat_Sheet.docx",
+        "ranges": [
+          [
+            2,
+            18
+          ]
+        ]
+      }
+    ],
+    "related": {
+      "Natural Monopoly Regulation": "Connects pricing power with the cost structure that motivates regulation.",
+      "Energy Auctions": "Applies market competition to auction bidding."
+    }
+  },
+  {
+    "title": "Energy Auctions",
+    "topic": "Markets",
+    "description": "Uniform-price, pay-as-bid and the winner’s curse.",
+    "inputs": [
+      {
+        "raw": "EEM Quiz 1 Cheat Sheet.docx",
+        "ranges": [
+          [
+            19,
+            22
+          ]
+        ]
+      },
+      {
+        "raw": "EEM_Final_Cheat_Sheet.docx",
+        "ranges": [
+          [
+            19,
+            28
+          ]
+        ]
+      }
+    ],
+    "related": {
+      "Market Power": "Bidding incentives depend on the competitive setting."
+    }
+  },
+  {
+    "title": "Futures and Hedging",
+    "topic": "Markets",
+    "description": "Futures, forwards, basis risk and hedge direction.",
+    "inputs": [
+      {
+        "raw": "EEM Quiz 1 Cheat Sheet.docx",
+        "ranges": [
+          [
+            23,
+            29
+          ]
+        ]
+      },
+      {
+        "raw": "EEM_Final_Cheat_Sheet.docx",
+        "ranges": [
+          [
+            29,
+            57
+          ]
+        ]
+      }
+    ],
+    "related": {
+      "Storage and Arbitrage": "Connects futures prices with carrying commodities over time."
+    }
+  },
+  {
+    "title": "Storage and Arbitrage",
+    "topic": "Markets",
+    "description": "Storage incentives and spatial price differences.",
+    "inputs": [
+      {
+        "raw": "EEM Quiz 1 Cheat Sheet.docx",
+        "ranges": [
+          [
+            30,
+            39
+          ]
+        ]
+      },
+      {
+        "raw": "EEM_Final_Cheat_Sheet.docx",
+        "ranges": [
+          [
+            58,
+            68
+          ]
+        ]
+      }
+    ],
+    "related": {
+      "Futures and Hedging": "Futures and spot prices enter storage decisions.",
+      "Market Power": "Transport market power can sustain price wedges."
+    }
+  },
+  {
+    "title": "Natural Monopoly Regulation",
+    "topic": "Regulation",
+    "description": "Cost curves, regulated pricing and allowed returns.",
+    "inputs": [
+      {
+        "raw": "EEM Quiz 2 Cheat Sheet.docx",
+        "ranges": [
+          [
+            1,
+            4
+          ],
+          [
+            10,
+            35
+          ],
+          [
+            38,
+            43
+          ]
+        ]
+      },
+      {
+        "raw": "EEM_Final_Cheat_Sheet.docx",
+        "ranges": [
+          [
+            69,
+            92
+          ]
+        ]
+      }
+    ],
+    "related": {
+      "Tax and Price Controls": "Compares regulation with other price interventions.",
+      "Vertical Market Power": "Distinguishes regulated cost structures from markups along a supply chain."
+    }
+  },
+  {
+    "title": "Tax and Price Controls",
+    "topic": "Regulation",
+    "description": "Tax incidence, price ceilings and allocation.",
+    "inputs": [
+      {
+        "raw": "EEM Quiz 2 Cheat Sheet.docx",
+        "ranges": [
+          [
+            5,
+            9
+          ]
+        ]
+      },
+      {
+        "raw": "EEM_Final_Cheat_Sheet.docx",
+        "ranges": [
+          [
+            93,
+            98
+          ]
+        ]
+      }
+    ],
+    "related": {
+      "Natural Monopoly Regulation": "Both topics examine pricing policies and welfare."
+    }
+  },
+  {
+    "title": "Vertical Market Power",
+    "topic": "Regulation",
+    "description": "Double marginalization in a vertical supply chain.",
+    "inputs": [
+      {
+        "raw": "EEM Quiz 2 Cheat Sheet.docx",
+        "ranges": [
+          [
+            37,
+            37
+          ]
+        ]
+      },
+      {
+        "raw": "EEM_Final_Cheat_Sheet.docx",
+        "ranges": [
+          [
+            99,
+            101
+          ]
+        ]
+      }
+    ],
+    "related": {
+      "Market Power": "Requires market power at both stages.",
+      "Natural Monopoly Regulation": "Offers another perspective on market intervention."
+    }
+  },
+  {
+    "title": "Externalities and Policy",
+    "topic": "Environment",
+    "description": "External costs, market failures and policy instruments.",
+    "inputs": [
+      {
+        "raw": "EEM Quiz 3 Cheat Sheet.docx",
+        "ranges": [
+          [
+            1,
+            12
+          ],
+          [
+            37,
+            66
+          ]
+        ]
+      },
+      {
+        "raw": "EEM_Final_Cheat_Sheet.docx",
+        "ranges": [
+          [
+            120,
+            159
+          ]
+        ]
+      }
+    ],
+    "related": {
+      "Carbon Markets": "Uses priced emissions and tradable permits.",
+      "Energy Efficiency": "Connects information and principal-agent problems with standards."
+    }
+  },
+  {
+    "title": "Carbon Markets",
+    "topic": "Environment",
+    "description": "Abatement costs, permits, offsets, leakage and reshuffling.",
+    "inputs": [
+      {
+        "raw": "EEM Quiz 3 Cheat Sheet.docx",
+        "ranges": [
+          [
+            17,
+            26
+          ]
+        ]
+      },
+      {
+        "raw": "EEM_Final_Cheat_Sheet.docx",
+        "ranges": [
+          [
+            160,
+            170
+          ]
+        ]
+      }
+    ],
+    "related": {
+      "Externalities and Policy": "Explains why emissions policy is introduced.",
+      "Electricity Pricing": "Carbon costs affect fossil generation and market prices."
+    }
+  },
+  {
+    "title": "Electricity Pricing",
+    "topic": "Energy",
+    "description": "Merit order, marginal units and capacity constraints.",
+    "inputs": [
+      {
+        "raw": "EEM Quiz 3 Cheat Sheet.docx",
+        "ranges": [
+          [
+            13,
+            16
+          ]
+        ]
+      },
+      {
+        "raw": "EEM_Final_Cheat_Sheet.docx",
+        "ranges": [
+          [
+            111,
+            119
+          ]
+        ]
+      }
+    ],
+    "related": {
+      "Carbon Markets": "Carbon policies change generation costs.",
+      "Levelized Electricity Cost": "Separates market prices from project cost accounting."
+    }
+  },
+  {
+    "title": "Levelized Electricity Cost",
+    "topic": "Energy",
+    "description": "LCOE calculation and its limits.",
+    "inputs": [
+      {
+        "raw": "EEM Quiz 3 Cheat Sheet.docx",
+        "ranges": [
+          [
+            67,
+            69
+          ]
+        ]
+      },
+      {
+        "raw": "EEM_Final_Cheat_Sheet.docx",
+        "ranges": [
+          [
+            102,
+            110
+          ]
+        ]
+      }
+    ],
+    "related": {
+      "Electricity Pricing": "Cost per MWh is not the same as wholesale market price.",
+      "Energy Efficiency": "Connects energy output and use with economic choices."
+    }
+  },
+  {
+    "title": "Energy Efficiency",
+    "topic": "Energy",
+    "description": "Rebound, principal-agent problems and fuel-economy standards.",
+    "inputs": [
+      {
+        "raw": "EEM Quiz 3 Cheat Sheet.docx",
+        "ranges": [
+          [
+            27,
+            29
+          ]
+        ]
+      },
+      {
+        "raw": "EEM_Final_Cheat_Sheet.docx",
+        "ranges": [
+          [
+            171,
+            173
+          ]
+        ]
+      }
+    ],
+    "related": {
+      "Externalities and Policy": "Distinguishes policy rationales and market failures.",
+      "Levelized Electricity Cost": "Both topics require care when interpreting simplified metrics."
+    }
+  }
+]

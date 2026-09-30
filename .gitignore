@@ -1,0 +1,13 @@
+.venv/
+model/
+.cache/
+__pycache__/
+.DS_Store
+.state/
+vault/.obsidian/workspace*.json
+*.safetensors
+*.gguf
+*.env
+
+# Microsoft Office creates temporary lock files when originals are viewed.
+~$*

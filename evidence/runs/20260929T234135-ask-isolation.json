@@ -1,0 +1,35 @@
+{
+  "recorded_at": "2026-09-29T23:41:59.004945+00:00",
+  "offline_proof": "Local-only inference; physical internet disconnection not verified.",
+  "interaction_mode": "ask",
+  "execution": "local",
+  "question": "What is my project budget in dollars?",
+  "retrieved": [],
+  "raw_model_answer": "Insufficient evidence in the indexed sources.",
+  "answer": "Insufficient evidence in the indexed sources.",
+  "citation_check": {
+    "cited": [],
+    "valid_labels": true,
+    "issues": [],
+    "semantic_support": "Requires human claim-by-claim review; valid labels do not prove support."
+  },
+  "metrics": {
+    "load_seconds": 1.914763207983924,
+    "generation_seconds": 0.4108231669815723,
+    "prompt_tokens": 237,
+    "max_output_tokens": 350,
+    "temperature": 0,
+    "generated_tokens": 8,
+    "peak_mlx_gb": 3.332334554,
+    "process_peak_rss_gb": 2.311077888,
+    "model": "mlx-community/gemma-4-e2b-it-4bit",
+    "snapshot_revision": "238767527555cb75a05732a84dff5d6ba0dd6809",
+    "runtime": {
+      "mlx": "0.32.2",
+      "mlx-lm": "0.31.3",
+      "transformers": "5.17.0"
+    }
+  },
+  "chat_history_used": false,
+  "assessment": "Must not treat the imaginary 999 dollars in chat as source evidence."
+}

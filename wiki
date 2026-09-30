@@ -1,0 +1,11 @@
+#!/bin/sh
+set -eu
+ROOT=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+if [ -x "$ROOT/.venv/bin/python" ]; then
+  PY="$ROOT/.venv/bin/python"
+elif [ -x "$ROOT/../local-chatbot/.venv/bin/python" ]; then
+  PY="$ROOT/../local-chatbot/.venv/bin/python"
+else
+  PY=python3
+fi
+exec "$PY" "$ROOT/wiki.py" "$@"

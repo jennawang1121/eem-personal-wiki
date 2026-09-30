@@ -1,0 +1,23 @@
+{
+  "run_id": "20260930T042106Z",
+  "records": [
+    "evidence/runs/20260930T042107-706210.md",
+    "evidence/runs/20260930T042146-86891c.md",
+    "evidence/runs/20260930T042147-afc108.md",
+    "evidence/runs/20260930T042151-82f50e.md",
+    "evidence/runs/20260930T042154-6ee8b7.md",
+    "evidence/runs/20260930T042158-5f3866.md",
+    "evidence/runs/20260930T042201-7496a3.md",
+    "evidence/runs/20260930T042206-f5788e.md",
+    "evidence/runs/20260930T042209-8ccb5b.md",
+    "evidence/runs/20260930T042212-de2399.md",
+    "evidence/runs/20260930T042214-d84bb2.md",
+    "evidence/runs/20260930T042215-e7c9fb.md",
+    "evidence/runs/20260930T042218-6259c6.md",
+    "evidence/runs/20260930T042218-e78d6c.md"
+  ],
+  "physical_offline_demonstration": "reviewed; see evidence/offline/20260930T042106Z/REVIEW.md",
+  "human_review": "owner review pending",
+  "assistant_source_review": "complete for offline answers and all twelve regenerated wiki pages; see post-offline-review.json",
+  "previous_run_id": "20260929T234135"
+}

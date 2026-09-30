@@ -1,0 +1,318 @@
+ingest | local | mlx-community/gemma-4-e2b-it-4bit
+{
+  "interaction_mode": "ingest",
+  "execution": "local",
+  "sources": [
+    {
+      "title": "Market Power",
+      "status": "generated; review pending",
+      "metrics": {
+        "load_seconds": 2.1647112919890787,
+        "generation_seconds": 3.9772343340155203,
+        "prompt_tokens": 734,
+        "max_output_tokens": 480,
+        "temperature": 0,
+        "generated_tokens": 198,
+        "peak_mlx_gb": 3.26084215,
+        "process_peak_rss_gb": 1.180450816,
+        "model": "mlx-community/gemma-4-e2b-it-4bit",
+        "snapshot_revision": "238767527555cb75a05732a84dff5d6ba0dd6809",
+        "runtime": {
+          "mlx": "0.32.2",
+          "mlx-lm": "0.31.3",
+          "transformers": "5.17.0"
+        }
+      },
+      "raw_model_summary": "Market power is defined as the ability to raise the price by restricting the quantity sold. In competitive markets, reducing quantity has no price effect, whereas in non-competitive markets, reducing quantity leads to a price increase.\n\n*   In the short run, price volatility does not indicate market power, as prices are determined by the intersection of supply and demand, and capacity constraints can cause prices to exceed marginal cost.\n*   Monopoly profit maximization occurs where Marginal Revenue equals Marginal Cost ($MR=MC$), leading to a lower quantity produced and a higher price, resulting in deadweight loss compared to a competitive market.\n*   For a linear demand function $P=a-bQ$, the marginal revenue is $MR=a-2bQ$, which is twice the slope of the demand curve.\n*   Market power is strongest when both the market demand and the fringe supply are inelastic, as this implies the residual demand is most inelastic, granting the most pricing power."
+    },
+    {
+      "title": "Energy Auctions",
+      "status": "generated; review pending",
+      "metrics": {
+        "load_seconds": 2.1647112919890787,
+        "generation_seconds": 4.198795917007374,
+        "prompt_tokens": 402,
+        "max_output_tokens": 480,
+        "temperature": 0,
+        "generated_tokens": 228,
+        "peak_mlx_gb": 3.26084215,
+        "process_peak_rss_gb": 1.180450816,
+        "model": "mlx-community/gemma-4-e2b-it-4bit",
+        "snapshot_revision": "238767527555cb75a05732a84dff5d6ba0dd6809",
+        "runtime": {
+          "mlx": "0.32.2",
+          "mlx-lm": "0.31.3",
+          "transformers": "5.17.0"
+        }
+      },
+      "raw_model_summary": "Energy Auctions\n\nAuctions involve different pricing mechanisms. In a Uniform Price Auction, all winners receive the clearing price, and competitive firms bid approximately equal to the marginal cost (MC). If demand decreases, the price will fall. In a Pay-As-Bid Auction, each winner pays their own bid, requiring firms to forecast the clearing price and bid above MC. If demand drops, the price may remain high because bids are already inflated. The Winner's Curse is relevant in common-value auctions, where an increased number of bidders raises the risk that someone will overestimate the value.\n\n*   Uniform Price Auction: All winners receive the clearing price.\n*   Competitive firms bid approximately equal to MC.\n*   If demand drops unexpectedly, the price falls.\n*   Pay-As-Bid Auction: Each winner pays their own bid.\n*   Firms must forecast the clearing price and bid above MC.\n*   If demand drops, the price stays high (bids are already inflated).\n*   Winner's Curse occurs in common-value auctions; more bidders increase the risk of overestimation."
+    },
+    {
+      "title": "Futures and Hedging",
+      "status": "generated; review pending",
+      "metrics": {
+        "load_seconds": 2.1647112919890787,
+        "generation_seconds": 3.109681250003632,
+        "prompt_tokens": 589,
+        "max_output_tokens": 480,
+        "temperature": 0,
+        "generated_tokens": 164,
+        "peak_mlx_gb": 3.26084215,
+        "process_peak_rss_gb": 1.180450816,
+        "model": "mlx-community/gemma-4-e2b-it-4bit",
+        "snapshot_revision": "238767527555cb75a05732a84dff5d6ba0dd6809",
+        "runtime": {
+          "mlx": "0.32.2",
+          "mlx-lm": "0.31.3",
+          "transformers": "5.17.0"
+        }
+      },
+      "raw_model_summary": "Futures markets offer several advantages over forwards, including being exchange traded, standardized, and utilizing mark-to-market settlement, which reduces counterparty risk and provides high liquidity with low transaction costs. Forwards are described as over-the-counter private contracts, which involve higher counterparty risk and lower liquidity.\n\n*   Futures contracts are traded on an exchange and are standardized.\n*   Forwards are private contracts traded OTC and have higher counterparty risk.\n*   Basis risk is the risk that a futures contract is poorly correlated with the actual asset price.\n*   Hedging involves using futures contracts to offset exposure: short futures for selling a commodity and long futures for buying a commodity.\n*   The hedge size is calculated as Exposure $\\times$ Price Sensitivity to determine the required amount of currency."
+    },
+    {
+      "title": "Storage and Arbitrage",
+      "status": "generated; review pending",
+      "metrics": {
+        "load_seconds": 2.1647112919890787,
+        "generation_seconds": 3.2203029169759247,
+        "prompt_tokens": 455,
+        "max_output_tokens": 480,
+        "temperature": 0,
+        "generated_tokens": 170,
+        "peak_mlx_gb": 3.26084215,
+        "process_peak_rss_gb": 1.180450816,
+        "model": "mlx-community/gemma-4-e2b-it-4bit",
+        "snapshot_revision": "238767527555cb75a05732a84dff5d6ba0dd6809",
+        "runtime": {
+          "mlx": "0.32.2",
+          "mlx-lm": "0.31.3",
+          "transformers": "5.17.0"
+        }
+      },
+      "raw_model_summary": "Storage Economics involves carry cost, which is the sum of the interest rate and storage cost. The relationship between futures and spot prices determines storage incentives: Contango (Futures price > Spot) provides an incentive to store, while Backwardation (Futures price < Spot) provides an incentive to sell now. Storage is intended to reduce price volatility across time.\n\n*   Carry cost equals the interest rate plus storage cost.\n*   Contango (Futures > Spot) creates an incentive to store.\n*   Backwardation (Futures < Spot) creates an incentive to sell now.\n*   Arbitrage occurs if the difference between prices ($P_2 - P_1$) exceeds the marginal cost of transportation ($MC_{transport}$).\n*   Market power in transportation can lead to a deadweight loss due to a price wedge being too large."
+    },
+    {
+      "title": "Natural Monopoly Regulation",
+      "status": "generated; review pending",
+      "metrics": {
+        "load_seconds": 2.1647112919890787,
+        "generation_seconds": 3.4422495839826297,
+        "prompt_tokens": 907,
+        "max_output_tokens": 480,
+        "temperature": 0,
+        "generated_tokens": 175,
+        "peak_mlx_gb": 3.26084215,
+        "process_peak_rss_gb": 1.180450816,
+        "model": "mlx-community/gemma-4-e2b-it-4bit",
+        "snapshot_revision": "238767527555cb75a05732a84dff5d6ba0dd6809",
+        "runtime": {
+          "mlx": "0.32.2",
+          "mlx-lm": "0.31.3",
+          "transformers": "5.17.0"
+        }
+      },
+      "raw_model_summary": "Natural monopoly occurs when economies of scale are large enough that one firm can supply the entire market at the lowest cost. This is identified when the Average Cost (AC) curve declines over the entire market demand range.\n\n*   AC declining at market demand indicates a natural monopoly.\n*   The relationship between Marginal Cost (MC) and Average Cost (AC) is defined as: MC < AC causes AC to fall, MC > AC causes AC to rise, and MC = AC corresponds to the AC minimum.\n*   Regulatory options include setting price equal to marginal cost ($P=MC$), which is efficient but may result in the firm losing fixed costs (profit = $-F$).\n*   A two-part tariff structure ($P=MC + \\text{fixed fee}$) is mentioned, where the fixed fee can be used to calculate consumer surplus (CS)."
+    },
+    {
+      "title": "Tax and Price Controls",
+      "status": "generated; review pending",
+      "metrics": {
+        "load_seconds": 2.1647112919890787,
+        "generation_seconds": 3.233039832994109,
+        "prompt_tokens": 468,
+        "max_output_tokens": 480,
+        "temperature": 0,
+        "generated_tokens": 175,
+        "peak_mlx_gb": 3.26084215,
+        "process_peak_rss_gb": 1.180450816,
+        "model": "mlx-community/gemma-4-e2b-it-4bit",
+        "snapshot_revision": "238767527555cb75a05732a84dff5d6ba0dd6809",
+        "runtime": {
+          "mlx": "0.32.2",
+          "mlx-lm": "0.31.3",
+          "transformers": "5.17.0"
+        }
+      },
+      "raw_model_summary": "Tax and Price Controls\n\nPrice ceilings can cause shortages and deadweight loss (DWL), leading to allocative inefficiency. The welfare loss (allocative cost) occurs when goods are not allocated to buyers with the highest willingness to pay.\n\n*   Tax Incidence: The less elastic side pays more of the tax.\n*   Buyer Share Formula: Buyer share is calculated as Supply slope divided by (Supply slope plus the absolute value of the Demand slope).\n*   Inelastic Demand: Buyers bear the tax (e.g., insulin, gasoline, electricity).\n*   Inelastic Supply: Sellers bear the tax (e.g., land).\n*   Price Ceiling Effects: Result in a shortage, deadweight loss, and allocative inefficiency.\n*   Secondary Market: Can fix allocative cost but cannot eliminate the deadweight loss or the shortage."
+    },
+    {
+      "title": "Vertical Market Power",
+      "status": "generated; review pending",
+      "metrics": {
+        "load_seconds": 2.1647112919890787,
+        "generation_seconds": 2.0096696669934317,
+        "prompt_tokens": 299,
+        "max_output_tokens": 480,
+        "temperature": 0,
+        "generated_tokens": 104,
+        "peak_mlx_gb": 3.26084215,
+        "process_peak_rss_gb": 1.180450816,
+        "model": "mlx-community/gemma-4-e2b-it-4bit",
+        "snapshot_revision": "238767527555cb75a05732a84dff5d6ba0dd6809",
+        "runtime": {
+          "mlx": "0.32.2",
+          "mlx-lm": "0.31.3",
+          "transformers": "5.17.0"
+        }
+      },
+      "raw_model_summary": "Vertical Market Power occurs through Double Marginalization. This happens when multiple firms in a vertical chain each apply their own markup, leading to a higher final price and reduced total output. This situation only arises when both parties in the chain possess market power.\n\n*   Double Marginalization involves two monopolists in a vertical chain.\n*   Each monopolist adds a markup.\n*   This results in a higher final price and lower total output.\n*   It requires market power at both the upstream and downstream levels."
+    },
+    {
+      "title": "Externalities and Policy",
+      "status": "generated; review pending",
+      "metrics": {
+        "load_seconds": 2.1647112919890787,
+        "generation_seconds": 2.7239607079827692,
+        "prompt_tokens": 750,
+        "max_output_tokens": 480,
+        "temperature": 0,
+        "generated_tokens": 135,
+        "peak_mlx_gb": 3.277132542,
+        "process_peak_rss_gb": 1.180450816,
+        "model": "mlx-community/gemma-4-e2b-it-4bit",
+        "snapshot_revision": "238767527555cb75a05732a84dff5d6ba0dd6809",
+        "runtime": {
+          "mlx": "0.32.2",
+          "mlx-lm": "0.31.3",
+          "transformers": "5.17.0"
+        }
+      },
+      "raw_model_summary": "Externalities arise when private equilibrium (MB = MPC) ignores an external cost, leading to a social optimum where MB = MPC + MEC, resulting in a deadweight loss (DWL) calculated as $0.5 \\times (Q_{\\text{market}} - Q_{\\text{social}}) \\times \\text{MEC}$. Solutions for market failures include pricing unpriced externalities with a Pigouvian tax, providing information to address imperfect information, and setting minimum efficiency standards to resolve principal-agent problems. Instrument choice depends on measurability: measurable emissions suggest a Tax or Cap-and-Trade, while non-measurable emissions suggest a Technology Mandate."
+    },
+    {
+      "title": "Carbon Markets",
+      "status": "generated; review pending",
+      "metrics": {
+        "load_seconds": 2.1647112919890787,
+        "generation_seconds": 4.029910207987996,
+        "prompt_tokens": 605,
+        "max_output_tokens": 480,
+        "temperature": 0,
+        "generated_tokens": 219,
+        "peak_mlx_gb": 3.277132542,
+        "process_peak_rss_gb": 1.180450816,
+        "model": "mlx-community/gemma-4-e2b-it-4bit",
+        "snapshot_revision": "238767527555cb75a05732a84dff5d6ba0dd6809",
+        "runtime": {
+          "mlx": "0.32.2",
+          "mlx-lm": "0.31.3",
+          "transformers": "5.17.0"
+        }
+      },
+      "raw_model_summary": "Carbon policy effects involve various mechanisms and behavioral considerations. Carbon taxes raise the marginal cost of fossil fuels, shifting supply up, and the fuel switching price usually increases depending on the marginal unit. Offsets increase compliance options, which can lead to a decrease in permit price and electricity price, thereby reducing the profit of low-cost generators.\n\n*   Permit allocation methods affect market efficiency: Free permits can distort exit decisions, whereas auctioning is considered efficient.\n*   Opportunity cost is the same regardless of allocation method: Free permits result in a cost equal to the market price.\n*   In cap-and-trade equilibrium, the lower-cost firm (flatter Marginal Abatement Cost, MAC) abates more and buys fewer permits.\n*   The total cost in cap-and-trade is calculated as $\\Sigma(0.5 \\times X_i \\times P_i)$ for each firm.\n*   Carbon leakage occurs when regulation causes production to move to a less-regulated region, while reshuffling involves trading partners changing without changing total production."
+    },
+    {
+      "title": "Electricity Pricing",
+      "status": "generated; review pending",
+      "metrics": {
+        "load_seconds": 2.1647112919890787,
+        "generation_seconds": 3.556746124988422,
+        "prompt_tokens": 389,
+        "max_output_tokens": 480,
+        "temperature": 0,
+        "generated_tokens": 197,
+        "peak_mlx_gb": 3.277132542,
+        "process_peak_rss_gb": 1.180450816,
+        "model": "mlx-community/gemma-4-e2b-it-4bit",
+        "snapshot_revision": "238767527555cb75a05732a84dff5d6ba0dd6809",
+        "runtime": {
+          "mlx": "0.32.2",
+          "mlx-lm": "0.31.3",
+          "transformers": "5.17.0"
+        }
+      },
+      "raw_model_summary": "Electricity market ordering is determined by the marginal cost (MC) of the unit, with a merit order from low to high cost as Renewables $\\rightarrow$ Nuclear $\\rightarrow$ Coal $\\rightarrow$ Gas. The market price is defined as the MC of the marginal unit dispatched, and producer surplus (PS) is calculated as Price minus MC. Fossil fuels are noted as typically setting the price.\n\n*   Merit order for electricity markets is Renewables $\\rightarrow$ Nuclear $\\rightarrow$ Coal $\\rightarrow$ Gas (low to high cost).\n*   Market price equals the Marginal Cost (MC) of the most expensive unit dispatched.\n*   Fossil fuels are typically responsible for setting the price.\n*   In the short run, off-peak prices may fall (MC $\\downarrow$) while peak prices remain unchanged due to capacity constraints.\n*   In the long run, lower build costs and increased plant numbers can cause peak prices to fall more as capacity adjusts."
+    },
+    {
+      "title": "Levelized Electricity Cost",
+      "status": "generated; review pending",
+      "metrics": {
+        "load_seconds": 2.1647112919890787,
+        "generation_seconds": 2.82965137498104,
+        "prompt_tokens": 502,
+        "max_output_tokens": 480,
+        "temperature": 0,
+        "generated_tokens": 150,
+        "peak_mlx_gb": 3.277132542,
+        "process_peak_rss_gb": 1.180450816,
+        "model": "mlx-community/gemma-4-e2b-it-4bit",
+        "snapshot_revision": "238767527555cb75a05732a84dff5d6ba0dd6809",
+        "runtime": {
+          "mlx": "0.32.2",
+          "mlx-lm": "0.31.3",
+          "transformers": "5.17.0"
+        }
+      },
+      "raw_model_summary": "Levelized Electricity Cost (LCOE) is defined as the constant price per MWh that results in a Net Present Value (NPV) of zero. The calculation depends on whether the marginal cost (MC) is fixed or variable.\n\n*   If MC is fixed, LCOE is calculated as MC plus the Fixed Cost divided by the Discounted MWh.\n*   If MC varies, LCOE is calculated as the sum of discounted costs divided by the sum of discounted total electricity.\n*   A higher capacity factor leads to a lower LCOE because the fixed cost is spread over more MWh.\n*   LCOE ignores time, location, and dispatchability, treating all electricity as equally valuable."
+    },
+    {
+      "title": "Energy Efficiency",
+      "status": "generated; review pending",
+      "metrics": {
+        "load_seconds": 2.1647112919890787,
+        "generation_seconds": 2.661665958003141,
+        "prompt_tokens": 372,
+        "max_output_tokens": 480,
+        "temperature": 0,
+        "generated_tokens": 143,
+        "peak_mlx_gb": 3.277132542,
+        "process_peak_rss_gb": 1.180450816,
+        "model": "mlx-community/gemma-4-e2b-it-4bit",
+        "snapshot_revision": "238767527555cb75a05732a84dff5d6ba0dd6809",
+        "runtime": {
+          "mlx": "0.32.2",
+          "mlx-lm": "0.31.3",
+          "transformers": "5.17.0"
+        }
+      },
+      "raw_model_summary": "Energy Efficiency involves several concepts related to behavioral failures and market mechanisms. The rebound effect describes a situation where increased efficiency leads to increased usage. Furthermore, the principal-agent problem can arise where the decision-maker is not the payer, such as a landlord not investing in maintenance while the tenant bears the utility cost.\n\n*   Rebound effect causes efficiency increases to result in higher usage.\n*   The principal-agent problem occurs when the decision-maker is not the payer (e.g., landlord not investing).\n*   The Fuel Economy Standard (CAF\u00c9) requires fleet average MPG compliance through technology improvements or sales mix.\n*   Credit trading is allowed in relation to the CAFE standard."
+    }
+  ],
+  "source_hashes": {
+    "vault/raw/EEM Quiz 1 Cheat Sheet.docx": "764c69cba4a277432164cd61216a7bdbd11178231d1e685dfedb18e024690500",
+    "vault/raw/EEM Quiz 2 Cheat Sheet.docx": "bc066ff7fe1ac64d16cb06722c4eec9222ecba834e55aa3c6cb0ae957b640c38",
+    "vault/raw/EEM Quiz 3 Cheat Sheet.docx": "18c5486868e0553ba9e34ff7b766af5b3f88563637a74206e9e93302a3b0d4ce",
+    "vault/raw/EEM_Final_Cheat_Sheet.docx": "b5f3132c2e80236bc462bc75cd95b0525cfcc7dcaa192a4eef29ea9984f406a9"
+  },
+  "extraction_report": [
+    {
+      "path": "vault/raw/EEM Quiz 1 Cheat Sheet.docx",
+      "sha256": "764c69cba4a277432164cd61216a7bdbd11178231d1e685dfedb18e024690500",
+      "paragraphs": 43,
+      "table_paragraphs": 0,
+      "images_preserved": 2,
+      "images_indexed": 0,
+      "word_count": 348
+    },
+    {
+      "path": "vault/raw/EEM Quiz 2 Cheat Sheet.docx",
+      "sha256": "bc066ff7fe1ac64d16cb06722c4eec9222ecba834e55aa3c6cb0ae957b640c38",
+      "paragraphs": 46,
+      "table_paragraphs": 24,
+      "images_preserved": 5,
+      "images_indexed": 0,
+      "word_count": 403
+    },
+    {
+      "path": "vault/raw/EEM Quiz 3 Cheat Sheet.docx",
+      "sha256": "18c5486868e0553ba9e34ff7b766af5b3f88563637a74206e9e93302a3b0d4ce",
+      "paragraphs": 72,
+      "table_paragraphs": 30,
+      "images_preserved": 4,
+      "images_indexed": 0,
+      "word_count": 445
+    },
+    {
+      "path": "vault/raw/EEM_Final_Cheat_Sheet.docx",
+      "sha256": "b5f3132c2e80236bc462bc75cd95b0525cfcc7dcaa192a4eef29ea9984f406a9",
+      "paragraphs": 174,
+      "table_paragraphs": 172,
+      "images_preserved": 11,
+      "images_indexed": 0,
+      "word_count": 1088
+    }
+  ],
+  "passages": 28,
+  "elapsed_seconds": 42.604091083980165
+}
+Saved: evidence/runs/20260929T234040-37e7a7.md

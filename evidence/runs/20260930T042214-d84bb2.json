@@ -1,0 +1,35 @@
+{
+  "recorded_at": "2026-09-30T04:22:14.319384+00:00",
+  "offline_proof": "Local-only inference; physical internet disconnection not verified.",
+  "interaction_mode": "chat",
+  "execution": "local",
+  "question": "make that shorter",
+  "retrieval_used": false,
+  "retrieved": [],
+  "answer": "Okay, I can make it more concise. How about this super-short version?\n\n**Short Revision Plan (3 Steps):**\n\n1.  **Identify:** Pinpoint the core concepts.\n2.  **Connect:** Draw the relationships between them.\n3.  **Teach:** Explain the whole thing out loud.\n\nDoes that hit the mark better?",
+  "raw_model_answer": "Okay, I can make it more concise. How about this super-short version?\n\n**Short Revision Plan (3 Steps):**\n\n1.  **Identify:** Pinpoint the core concepts.\n2.  **Connect:** Draw the relationships between them.\n3.  **Teach:** Explain the whole thing out loud.\n\nDoes that hit the mark better?",
+  "citation_check": {
+    "cited": [],
+    "valid_labels": true,
+    "issues": [],
+    "semantic_support": "Requires human claim-by-claim review; valid labels do not prove support."
+  },
+  "metrics": {
+    "load_seconds": 1.2124673750076909,
+    "generation_seconds": 1.857142083987128,
+    "prompt_tokens": 857,
+    "max_output_tokens": 350,
+    "temperature": 0.3,
+    "generated_tokens": 76,
+    "peak_mlx_gb": 3.281491018,
+    "process_peak_rss_gb": 3.666722816,
+    "model": "mlx-community/gemma-4-e2b-it-4bit",
+    "snapshot_revision": "238767527555cb75a05732a84dff5d6ba0dd6809",
+    "runtime": {
+      "mlx": "0.32.2",
+      "mlx-lm": "0.31.3",
+      "transformers": "5.17.0"
+    }
+  },
+  "history_messages_used": 6
+}
